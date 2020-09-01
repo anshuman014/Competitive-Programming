@@ -71,16 +71,16 @@ int main() {
 		cin >> n;
 		string s;
 		cin >> s;
-		//s = "0" + s;
+		s = "0" + s;
 		unordered_map<int, int> dp;
-		dp[0] = 1;
+		dp[0] = 0;
 		ll ans = 0;
 		int sum = 0;
 		for (int i = 0; i < sz(s); i++) {
 			sum += s[i] - '0';
 			//if (sum - i + 1 >= 0) {
-			ans += dp[sum - i - 1 ];
-			dp[sum - i - 1 ]++;
+			ans += dp[sum - i ];
+			dp[sum - i ]++;
 			//}
 
 		}
