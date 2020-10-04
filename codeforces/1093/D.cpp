@@ -59,18 +59,6 @@ void dfs(int v, int c) {
 
 }
 
-ll powr(ll a, ll b, ll m) {
-	ll res = 1;
-	a = a % m;
-	while (b) {
-		if (b & 1)
-			res = (res * a) % m;
-		a = (a * a) % m;
-		b >>= 1;
-	}
-	return res;
-}
-
 
 int main() {
 
@@ -83,15 +71,22 @@ int main() {
 
 	int T = 1;
 	cin >> T;
+	ll p[MAX];
+	p[0] = 1;
+	for1(i, MAX) {
+		p[i] = (2LL * p[i - 1]) % modulo;
+	}
+
 	while (T--) {
 		int n, m;
 		cin >> n >> m;
-		for0(i, n+1) {
+		for0(i, n + 1) {
 			g[i].clear();
 			col[i] = -1;
-			vis[i]=0;
 		}
-		//memset(vis, 0, sizeof vis);
+		for0(i, n + 1) {
+			vis[i] = 0;
+		}
 		while (m--) {
 			int u, v;
 			cin >> u >> v;
@@ -107,14 +102,17 @@ int main() {
 				dfs(i, 0);
 				if (yes) {
 					//cout << ones << " " << zero << endl;
-					(ans *= powr(2, ones, modulo) + powr(2, zero, modulo)) %= modulo;
+					//(ans += powr(2, ones, modulo) + powr(2, zero, modulo)) %= modulo;
+					ll curr = (p[ones] + p[zero]) % modulo;
+					ans = (ans * curr) % modulo;
+					ans %= modulo;
 				}
 				else
 					break;
 			}
 		}
 		if (yes)
-			cout << ans << endl;
+			cout << ans % modulo << endl;
 		else
 			cout << 0 << endl;
 
