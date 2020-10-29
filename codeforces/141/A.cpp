@@ -53,15 +53,33 @@ void solve() {
 	string a, b, c;
 	cin >> a >> b >> c;
 	string s = a + b;
-	sort(all(s));
+	/*sort(all(s));
 	sort(all(c));
 
-	if (s == c) {
+	if (a == b) {
 		cout << "YES";
 	}
 	else
-		cout << "NO";
-
+		cout << "NO";*/
+	unordered_map<char, int> m;
+	for (char c : a)
+		m[c]++;
+	for (char c : b)
+		m[c]++;
+	for (char ch : c) {
+		m[ch]--;
+		if (m[ch] < 0) {
+			cout << "NO" << endl;
+			return;
+		}
+	}
+	for (auto it : m) {
+		if (it.second > 0 || it.second < 0) {
+			cout << "NO" << endl;
+			return;
+		}
+	}
+	cout << "YES" << endl;
 }
 
 
