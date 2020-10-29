@@ -580,6 +580,22 @@
     ],
     "timestamp": "Dec/20/2020 20:42"
   },
+  "CF97072346": {
+    "contest_id": 141,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/141/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Hopscotch",
+    "problem_url": "https://codeforces.com/contest/141/problem/B",
+    "submission_id": "CF97072346",
+    "submission_url": "https://codeforces.com/contest/141/submission/97072346",
+    "tags": [
+      "geometry",
+      "math",
+      "*1400"
+    ],
+    "timestamp": "Oct/29/2020 16:04"
+  },
   "CF97233882": {
     "contest_id": 1374,
     "language": "GNU C++17 (64)",
