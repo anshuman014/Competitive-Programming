@@ -1,0 +1,110 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+void setIO(string name = "") {
+	ios_base::sync_with_stdio(0); cin.tie(0);
+	// if ((int)name.size()) {
+	// 	freopen((name + ".in").c_str(), "r", stdin);
+	// 	freopen((name + ".out").c_str(), "w", stdout);
+	// }
+}
+
+
+typedef long long ll;
+#define int long long
+#define pb push_back
+#define endl "\n"
+#define for0(i,n) for(int i=0;i<n;i++)
+#define for1(i,n) for(int i=1;i<n;i++)
+#define ps(x,y) fixed << setprecision(y) << x
+
+#define sz(x) (int)x.size()
+#define all(x) begin(x), end(x)
+
+using pi = pair<int, int>;
+#define f first
+#define s second
+#define mp make_pair
+
+int dx[] = { -1, 0, 1, 0};
+int dy[] = {0, 1, 0, -1};
+
+const int MAX = 200001;
+const int mod = 1e9 + 7;
+const ll modulo = 998244353;
+const int inf = 1e15;
+const ll infinity = 1e18;
+vector < vector<int> >g;
+vector<int> vis;
+vector<int> par;
+vector<ll> dist;
+
+
+void initgraph(int n) {
+	g.resize(n + 1);
+	vis.resize(n + 1);
+	par.resize(n + 1);
+	dist.resize(n + 1);
+}
+vector<int> a, b;
+int dp[2005][1005];
+int n, k, p;
+
+
+
+void solve() {
+
+	string s;
+	cin >> s;
+	vector<int> odd, even;
+	for (char c : s) {
+		int x = c - '0';
+		if (x % 2)
+			odd.pb(x);
+		else
+			even.pb(x);
+	}
+	int n = sz(odd);
+	int m = sz(even);
+	int i = 0, j = 0;
+	string ans = "";
+	while (i < n && j < m) {
+		if (odd[i] < even[j]) {
+			ans += odd[i] + '0';
+			i++;
+		}
+		else {
+			ans += even[j] + '0';
+			j++;
+		}
+	}
+	while (i < n) {
+		ans += odd[i] + '0';
+		i++;
+	}
+	while (j < m) {
+		ans += even[j] + '0';
+		j++;
+	}
+	cout << ans << endl;
+
+}
+
+
+
+int32_t main() {
+
+	setIO();
+
+#ifndef ONLINE_JUDGE
+	freopen("input.txt", "r", stdin);
+	freopen("output.txt", "w", stdout);
+#endif
+
+	int T = 1;
+	cin >> T;
+
+	while (T--) {
+		solve();
+	}
+}
