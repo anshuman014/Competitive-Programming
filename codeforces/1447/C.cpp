@@ -62,23 +62,37 @@ void solve(int idx = 0) {
 	for0(i, n) {
 		int x;
 		cin >> x;
-		a.pb({x, i + 1});
+		if (x <= w) {
+			a.pb({x, i + 1});
+		}
 	}
+	int lower = w / 2;
+	if (w % 2)
+		lower++;
 	sort(all(a));
-	int l = 0;
+	reverse(all(a));
 	int sum = 0;
+	n = a.size();
+	for0(i, n) {
+		if (a[i].f >= lower && a[i].f <= w) {
+			cout << 1 << endl;
+			cout << a[i].s << endl;
+			return;
+		}
+	}
+	reverse(all(a));
 	for0(i, n) {
 		sum += a[i].f;
 		//cout << sum << " ";
-		if (sum >= (w + 1) / 2 && sum <= w) {
-			cout << i - l + 1 << endl;
-			for (int j = l; j <= i; j++) {
+		if (sum >= lower && sum <= w) {
+			cout << i + 1 << endl;
+			for (int j = 0; j <= i; j++) {
 				cout << a[j].s << " ";
 			}
 			cout << endl;
 			return;
 		}
-		if (sum > w) {
+		/*if (sum > w) {
 			while (l <= i && sum > w) {
 				sum -= a[l].f;
 				l++;
@@ -91,7 +105,7 @@ void solve(int idx = 0) {
 					return;
 				}
 			}
-		}
+		}*/
 	}
 	cout << -1 << endl;
 }
