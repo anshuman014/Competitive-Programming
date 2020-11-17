@@ -580,6 +580,22 @@
     ],
     "timestamp": "Dec/20/2020 20:42"
   },
+  "CF98673659": {
+    "contest_id": 1167,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/1167/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Bicolored RBS",
+    "problem_url": "https://codeforces.com/contest/1167/problem/D",
+    "submission_id": "CF98673659",
+    "submission_url": "https://codeforces.com/contest/1167/submission/98673659",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "*1500"
+    ],
+    "timestamp": "Nov/17/2020 17:02"
+  },
   "CF98689388": {
     "contest_id": 1440,
     "language": "GNU C++17 (64)",
