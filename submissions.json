@@ -580,6 +580,22 @@
     ],
     "timestamp": "Dec/20/2020 20:42"
   },
+  "CF98841282": {
+    "contest_id": 1237,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/1237/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Balanced Rating Changes",
+    "problem_url": "https://codeforces.com/contest/1237/problem/A",
+    "submission_id": "CF98841282",
+    "submission_url": "https://codeforces.com/contest/1237/submission/98841282",
+    "tags": [
+      "implementation",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Nov/19/2020 00:52"
+  },
   "CF98860138": {
     "contest_id": 476,
     "language": "GNU C++17 (64)",
