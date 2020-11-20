@@ -580,6 +580,23 @@
     ],
     "timestamp": "Dec/20/2020 20:42"
   },
+  "CF99025240": {
+    "contest_id": 441,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/441/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Valera and Tubes ",
+    "problem_url": "https://codeforces.com/contest/441/problem/C",
+    "submission_id": "CF99025240",
+    "submission_url": "https://codeforces.com/contest/441/submission/99025240",
+    "tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Nov/20/2020 17:14"
+  },
   "CF99053230": {
     "contest_id": 363,
     "language": "GNU C++17 (64)",
