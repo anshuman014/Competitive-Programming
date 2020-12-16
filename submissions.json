@@ -1,4 +1,21 @@
 {
+  "CF101424357": {
+    "contest_id": 876,
+    "language": "GNU C++14",
+    "path": "codeforces/876/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Divisiblity of Differences",
+    "problem_url": "https://codeforces.com/contest/876/problem/B",
+    "submission_id": "CF101424357",
+    "submission_url": "https://codeforces.com/contest/876/submission/101424357",
+    "tags": [
+      "implementation",
+      "math",
+      "number theory",
+      "*1300"
+    ],
+    "timestamp": "Dec/16/2020 18:13"
+  },
   "CF101456333": {
     "contest_id": 1266,
     "language": "GNU C++14",
