@@ -60,25 +60,19 @@ int lcm(int a, int b) {
 	return lc;
 }
 
+
+
 void solve() {
 	int n;
 	cin >> n;
-	if (n == 1 || n == 2) {
-		cout << 4;
-		return;
+	int ans = 0;
+	if (n % 2) {
+		ans = 2 * (n / 2 + 1) * (n / 2 + 2);
 	}
-	vector<int> ans(n + 1);
-	ans[1] = 4, ans[2] = 4;
-	for (int i = 3; i <= n; i++) {
-		if (i % 2) {
-			ans[i] = ans[i - 2] + 2 * i + 2;
-		}
-		else {
-			ans[i] = ans[i - 2] +  i + 1;
-		}
-
+	else {
+		ans = (n / 2 + 1) * (n / 2 + 1);
 	}
-	cout << ans[n] << endl;
+	cout << ans << endl;
 }
 
 
