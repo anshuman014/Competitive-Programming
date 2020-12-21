@@ -56,7 +56,7 @@ void preprocess() {
 		if (prime[i]) {
 			for (int d = i * i; d <= N; d += i) {
 				prime[d] = false;
-				spf[d] = i;
+				spf[d] = min(spf[d], i);
 			}
 		}
 	}
