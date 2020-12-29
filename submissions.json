@@ -612,6 +612,23 @@
     ],
     "timestamp": "Dec/21/2020 17:33"
   },
+  "CF102669750": {
+    "contest_id": 977,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/977/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Cyclic Components",
+    "problem_url": "https://codeforces.com/contest/977/problem/E",
+    "submission_id": "CF102669750",
+    "submission_url": "https://codeforces.com/contest/977/submission/102669750",
+    "tags": [
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "*1500"
+    ],
+    "timestamp": "Dec/29/2020 13:55"
+  },
   "CF102672108": {
     "contest_id": 580,
     "language": "GNU C++17 (64)",
