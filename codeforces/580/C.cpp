@@ -52,15 +52,15 @@ void dfs(int v, int par, int curr) {
 		curr = 0;
 	if (curr > m)
 		return;
-
+	if (sz(g[v]) == 1 && v != 1) {
+		ans++;
+	}
 	for (int u : g[v]) {
 		if (!vis[u]) {
 			dfs(u, v, curr);
 		}
 	}
-	if (sz(g[v]) == 1 && v != 1) {
-		ans++;
-	}
+
 
 
 }
