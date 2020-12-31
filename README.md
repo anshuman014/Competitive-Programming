@@ -12,13 +12,14 @@ A repository to keep track of problem solving practise, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-220 | [C - No More Inversions](https://codeforces.com/contest/1473/problem/C) | [GNU C++17 (64)](./codeforces/1473/C.cpp) | `constructive algorithms` | Jan/15/2021 12:46 | 
-219 | [D - Program](https://codeforces.com/contest/1473/problem/D) | [GNU C++17 (64)](./codeforces/1473/D.cpp) | `data structures` `dp` `implementation` | Jan/14/2021 21:40 | 
-218 | [B - String LCM](https://codeforces.com/contest/1473/problem/B) | [GNU C++17 (64)](./codeforces/1473/B.cpp) | `brute force` `math` `strings` | Jan/14/2021 20:12 | 
-217 | [A - Replacing Elements](https://codeforces.com/contest/1473/problem/A) | [GNU C++17 (64)](./codeforces/1473/A.cpp) | `greedy` `implementation` `sortings` | Jan/14/2021 20:07 | 
-216 | [B - Square Difference](https://codeforces.com/contest/1033/problem/B) | [GNU C++17 (64)](./codeforces/1033/B.cpp) | `math` `number theory` `*1100` | Jan/11/2021 16:15 | 
-215 | [A - Bear and Poker](https://codeforces.com/contest/573/problem/A) | [GNU C++17 (64)](./codeforces/573/A.cpp) | `implementation` `math` `number theory` `*1300` | Jan/10/2021 22:13 | 
-214 | [D - Even-Odd Game](https://codeforces.com/contest/1472/problem/D) | [GNU C++17 (64)](./codeforces/1472/D.cpp) | `dp` `games` `greedy` `sortings` `*1200` | Jan/05/2021 14:54 | 
+221 | [C - No More Inversions](https://codeforces.com/contest/1473/problem/C) | [GNU C++17 (64)](./codeforces/1473/C.cpp) | `constructive algorithms` | Jan/15/2021 12:46 | 
+220 | [D - Program](https://codeforces.com/contest/1473/problem/D) | [GNU C++17 (64)](./codeforces/1473/D.cpp) | `data structures` `dp` `implementation` | Jan/14/2021 21:40 | 
+219 | [B - String LCM](https://codeforces.com/contest/1473/problem/B) | [GNU C++17 (64)](./codeforces/1473/B.cpp) | `brute force` `math` `strings` | Jan/14/2021 20:12 | 
+218 | [A - Replacing Elements](https://codeforces.com/contest/1473/problem/A) | [GNU C++17 (64)](./codeforces/1473/A.cpp) | `greedy` `implementation` `sortings` | Jan/14/2021 20:07 | 
+217 | [B - Square Difference](https://codeforces.com/contest/1033/problem/B) | [GNU C++17 (64)](./codeforces/1033/B.cpp) | `math` `number theory` `*1100` | Jan/11/2021 16:15 | 
+216 | [A - Bear and Poker](https://codeforces.com/contest/573/problem/A) | [GNU C++17 (64)](./codeforces/573/A.cpp) | `implementation` `math` `number theory` `*1300` | Jan/10/2021 22:13 | 
+215 | [D - Even-Odd Game](https://codeforces.com/contest/1472/problem/D) | [GNU C++17 (64)](./codeforces/1472/D.cpp) | `dp` `games` `greedy` `sortings` `*1200` | Jan/05/2021 14:54 | 
+214 | [E - Apollo versus Pan](https://codeforces.com/contest/1466/problem/E) | [GNU C++17 (64)](./codeforces/1466/E.cpp) | `bitmasks` `brute force` `math` `*1800` | Dec/31/2020 16:01 | 
 213 | [B - Sherlock and his girlfriend](https://codeforces.com/contest/776/problem/B) | [GNU C++17 (64)](./codeforces/776/B.cpp) | `constructive algorithms` `number theory` `*1200` | Dec/21/2020 17:33 | 
 212 | [B - Move and Turn](https://codeforces.com/contest/1459/problem/B) | [GNU C++17 (64)](./codeforces/1459/B.cpp) | `dp` `math` `*1300` | Dec/21/2020 15:38 | 
 211 | [B - Fair Numbers](https://codeforces.com/contest/1465/problem/B) | [GNU C++17 (64)](./codeforces/1465/B.cpp) | `brute force` `number theory` | Dec/20/2020 20:42 | 
