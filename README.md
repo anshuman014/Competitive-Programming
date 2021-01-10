@@ -12,11 +12,12 @@ A repository to keep track of problem solving practise, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-218 | [C - No More Inversions](https://codeforces.com/contest/1473/problem/C) | [GNU C++17 (64)](./codeforces/1473/C.cpp) | `constructive algorithms` | Jan/15/2021 12:46 | 
-217 | [D - Program](https://codeforces.com/contest/1473/problem/D) | [GNU C++17 (64)](./codeforces/1473/D.cpp) | `data structures` `dp` `implementation` | Jan/14/2021 21:40 | 
-216 | [B - String LCM](https://codeforces.com/contest/1473/problem/B) | [GNU C++17 (64)](./codeforces/1473/B.cpp) | `brute force` `math` `strings` | Jan/14/2021 20:12 | 
-215 | [A - Replacing Elements](https://codeforces.com/contest/1473/problem/A) | [GNU C++17 (64)](./codeforces/1473/A.cpp) | `greedy` `implementation` `sortings` | Jan/14/2021 20:07 | 
-214 | [B - Square Difference](https://codeforces.com/contest/1033/problem/B) | [GNU C++17 (64)](./codeforces/1033/B.cpp) | `math` `number theory` `*1100` | Jan/11/2021 16:15 | 
+219 | [C - No More Inversions](https://codeforces.com/contest/1473/problem/C) | [GNU C++17 (64)](./codeforces/1473/C.cpp) | `constructive algorithms` | Jan/15/2021 12:46 | 
+218 | [D - Program](https://codeforces.com/contest/1473/problem/D) | [GNU C++17 (64)](./codeforces/1473/D.cpp) | `data structures` `dp` `implementation` | Jan/14/2021 21:40 | 
+217 | [B - String LCM](https://codeforces.com/contest/1473/problem/B) | [GNU C++17 (64)](./codeforces/1473/B.cpp) | `brute force` `math` `strings` | Jan/14/2021 20:12 | 
+216 | [A - Replacing Elements](https://codeforces.com/contest/1473/problem/A) | [GNU C++17 (64)](./codeforces/1473/A.cpp) | `greedy` `implementation` `sortings` | Jan/14/2021 20:07 | 
+215 | [B - Square Difference](https://codeforces.com/contest/1033/problem/B) | [GNU C++17 (64)](./codeforces/1033/B.cpp) | `math` `number theory` `*1100` | Jan/11/2021 16:15 | 
+214 | [A - Bear and Poker](https://codeforces.com/contest/573/problem/A) | [GNU C++17 (64)](./codeforces/573/A.cpp) | `implementation` `math` `number theory` `*1300` | Jan/10/2021 22:13 | 
 213 | [B - Sherlock and his girlfriend](https://codeforces.com/contest/776/problem/B) | [GNU C++17 (64)](./codeforces/776/B.cpp) | `constructive algorithms` `number theory` `*1200` | Dec/21/2020 17:33 | 
 212 | [B - Move and Turn](https://codeforces.com/contest/1459/problem/B) | [GNU C++17 (64)](./codeforces/1459/B.cpp) | `dp` `math` `*1300` | Dec/21/2020 15:38 | 
 211 | [B - Fair Numbers](https://codeforces.com/contest/1465/problem/B) | [GNU C++17 (64)](./codeforces/1465/B.cpp) | `brute force` `number theory` | Dec/20/2020 20:42 | 
